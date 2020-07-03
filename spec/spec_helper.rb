@@ -12,5 +12,5 @@ begin
   return file_scope.local_variable_get(variable)
 rescue NameError
   raise NameError, "local variable `#{variable}' not defined in #{file}."
-end    
+end
 end
